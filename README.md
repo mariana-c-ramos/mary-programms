@@ -5,15 +5,16 @@ I'm mary programms, a frontend developer and this is my portfolio - a project de
 Bellow you have an index with the process and overall journey from concept to the final project - enjoy!
 
 ### INDEX
-- Concept for the project
-- Tools and tecnologies used
-- Design and Code Process
-- Important Links
+- [Concept for the project](https://github.com/mariana-c-ramos/mary-programms/tree/main#concept)
+- [Tools and tecnologies used](https://github.com/mariana-c-ramos/mary-programms/tree/main#tool-tecnologies)
+
+- [Design and Code Process](https://github.com/mariana-c-ramos/mary-programms/tree/main#process)
+- [Important Links](https://github.com/mariana-c-ramos/mary-programms/tree/main#links)
 
 
 ### CONCEPT
 test
-### TOOLS/TECNOLOGIES
+### TOOLS-TECNOLOGIES
 test
 ### PROCESS
 test
