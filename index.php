@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="mary programms' portfolio, full of amazing and creative projects!">
-    <meta name="keywords" content="mary programms,portfolio, frontend development, html, css, javascript, php, reactt">
+    <meta name="keywords" content="mary programms,portfolio, frontend development, html, css, javascript, php, react">
     <meta name="author" content="Mary Programmss">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon.png">
@@ -16,7 +16,24 @@
 </head>
 <body>
     <?php include('./content/pages/mainLayout.php') ?>
+    <?php
+        if(isset($_GET['area'])){
+            $area_escolhida = $_GET['area'];
 
+            if($area_escolhida == 'about-miana'){
+            include('content/pages/about.php');
+            } else if($area_escolhida == 'projects'){
+            include('projects.php');
+            } else if($area_escolhida == 'career'){
+            include('career.php');
+            } else if($area_escolhida == 'blog'){
+            include('blog.php');
+            } else if($area_escolhida == 'contacts'){
+            include('contacts.php');
+            }
+        }
+    ?>
+    <h1>ola sou a home</h1>
 
     <script src="./js/jquery.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
