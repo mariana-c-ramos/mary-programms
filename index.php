@@ -6,6 +6,7 @@
     <meta name="keywords" content="mary programms,portfolio, frontend development, html, css, javascript, php, reactt">
     <meta name="author" content="Mary Programmss">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-32x32.png">
     <title>mary programms</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
