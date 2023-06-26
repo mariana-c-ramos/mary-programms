@@ -9,3 +9,13 @@ Bellow you have an index with the process and overall journey from concept to th
 - Tools and tecnologies used
 - Design and Code Process
 - Important Links
+
+
+### CONCEPT
+test
+### TOOLS/TECNOLOGIES
+test
+### PROCESS
+test
+### LINKS
+test
