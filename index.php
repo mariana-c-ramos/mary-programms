@@ -6,17 +6,16 @@
     <meta name="keywords" content="mary programms,portfolio, frontend development, html, css, javascript, php, reactt">
     <meta name="author" content="Mary Programmss">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon.png">
     <title>mary programms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Oxanium:wght@200;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>hello</h1>
-
-
-
-
+    <?php include('./content/pages/mainLayout.php') ?>
 
 
     <script src="./js/jquery.js"></script>

@@ -3,6 +3,9 @@
 */
 *, *::before, *::after {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
   }
   /*
     2. Remove default margin
@@ -43,4 +46,11 @@
   */
   #root, #__next {
     isolation: isolate;
+  }
+
+  a{
+    text-decoration: none;
+  }
+  ul{
+    list-style: none;
   }

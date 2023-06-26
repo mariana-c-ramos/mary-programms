@@ -1,3 +1,4 @@
+-> get font for project
 -> create header component
 -> creat nav component
 -> creat main layout page
