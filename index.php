@@ -19,21 +19,23 @@
     <?php
         if(isset($_GET['area'])){
             $area_escolhida = $_GET['area'];
-
             if($area_escolhida == 'about-miana'){
-            include('content/pages/about.php');
+                include('./content/pages/about.php');
             } else if($area_escolhida == 'projects'){
-            include('projects.php');
+                include('./content/pages/projects.php');
             } else if($area_escolhida == 'career'){
-            include('career.php');
+                include('./content/pages/career.php');
             } else if($area_escolhida == 'blog'){
-            include('blog.php');
+                include('./content/pages/blog.php');
             } else if($area_escolhida == 'contacts'){
-            include('contacts.php');
+                include('./content/pages/contacts.php');
+            } else{
+                include('./content/pages/erro.php');
             }
+        } else {
+            include('./content/pages/home.php');
         }
     ?>
-    <h1>ola sou a home</h1>
 
     <script src="./js/jquery.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>

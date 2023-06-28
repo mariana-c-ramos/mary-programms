@@ -11,7 +11,9 @@
             </a>
         </li>
         <li class="menu__item">
-            <div id="projects" class="menu__item-dot"></div>
+        <a href="index.php?area=projects">
+                <div id="projects" class="menu__item-dot"></div>
+            </a>
         </li>
         <li class="menu__item">
             <div id="career" class="menu__item-dot"></div>
