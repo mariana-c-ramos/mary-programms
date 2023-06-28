@@ -24,7 +24,7 @@ body{
     scroll-behavior: smooth;
     position: relative;
     overflow: hidden;
-    font-size: 16px;
+    font-size: 14px;
     background-color: var(--clr-bg);
     color: var(--clr-text);
 }
@@ -102,6 +102,18 @@ body{
     color: var(--clr-accent);
     font-weight: var(--fw-bold);
 }
+.section__title-blog{
+    color: var(--clr-bg);
+    font-family: var(--ff-title);
+    font-size: var(--fs-title);
+    margin: 16px 0;
+}
+.section__p-blog{
+    color: var(--clr-bg);
+    font-family: var(--ff-text);
+    font-size: var(--fs-text);
+    margin-bottom: 16px;
+}
 .erro__btn{
     background-color: var(--clr-accent);
     color: var(--clr-text);
@@ -114,11 +126,23 @@ body{
     background-color: var(--clr-text);
     color: var(--clr-accent);
 }
+.blog__btn{
+    background-color: var(--clr-accent);
+    color: var(--clr-bg);
+    font-family: var(--ff-text);
+    font-size: var(--fs-subtitle);
+    padding: 8px 16px;
+    border-radius: 16px;
+}
+.blog__btn:hover{
+    background-color: var(--clr-bg);
+    color: var(--clr-text);
+}
 
 
 /* HOME CONTENT */
 .home__banner{
-    width: 100%;
+    width: 40%;
     max-width: 263px;
     margin: 40px auto;
 }
@@ -129,8 +153,8 @@ body{
 
 /* ABOUT CONTENT */
 .about__banner{
-    width: 100%;
-    max-width: 263px;
+    width: 40%;
+    max-width: 500px;
     margin: 24px auto 40px auto;
 }
 .about__icons{
@@ -147,9 +171,18 @@ body{
 /* PROJECTS CONTENT */
 .projects__covers{
     display: flex;
-}
-.breadcrumbs{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     margin-top: 24px;
+}
+.projects__covers .row{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+.projects__covers-img{
+    cursor: pointer;
 }
 .breadcrumbs__trail-first{
     color: var(--clr-titles);
@@ -159,7 +192,20 @@ body{
     text-decoration: underline;
 }
 /* CAREER CONTENT */
+
+
 /* BLOG CONTENT */
+.blog__grid{
+    display: flex;
+}
+.swiper-wrapper{
+    gap: 16px;
+}
+.swiper-slide{
+    background-color: var(--clr-text);
+    color: #000;
+    padding: 8px;
+}
 /* CONTACTS CONTENT */
 
 
@@ -180,10 +226,9 @@ body{
         padding-top: 80px;
         padding-bottom: 60px;
     }
-    .menu__item-dot{
-        width: 30px;
-        height: 30px;
-        background-color: var(--clr-text);
-        border-radius: 50%;
+    .blog__grid{
+        display: grid;
+        grid-template: 1fr 1fr 1fr 1fr;
+        margin-inline: auto;
     }
 }

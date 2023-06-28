@@ -13,32 +13,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Oxanium:wght@200;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
 </head>
 <body>
-    <?php include('./content/pages/mainLayout.php') ?>
+    <?php include('./pages/mainLayout.php') ?>
     <?php
         if(isset($_GET['area'])){
             $area_escolhida = $_GET['area'];
             if($area_escolhida == 'about-miana'){
-                include('./content/pages/about.php');
+                include('./pages/about.php');
             } else if($area_escolhida == 'projects'){
-                include('./content/pages/projects.php');
+                include('./pages/projects.php');
             } else if($area_escolhida == 'career'){
-                include('./content/pages/career.php');
+                include('./pages/career.php');
             } else if($area_escolhida == 'blog'){
-                include('./content/pages/blog.php');
+                include('./pages/blog.php');
             } else if($area_escolhida == 'contacts'){
-                include('./content/pages/contacts.php');
+                include('./pages/contacts.php');
             } else{
-                include('./content/pages/erro.php');
+                include('./pages/erro.php');
             }
         } else {
-            include('./content/pages/home.php');
+            include('./pages/home.php');
         }
     ?>
 
     <script src="./js/jquery.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./js/app.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            direction: 'horizontal',
+            slidesPerView: 1.5,
+            centeredSlides: true
+        });
+    </script>
 </body>
 </html>
