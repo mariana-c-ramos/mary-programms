@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Oxanium:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/icons/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/icons/css/brands.css">
+    <link rel="stylesheet" href="assets/icons/css/solid.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link
@@ -33,6 +36,8 @@
                 include('./pages/blog.php');
             } else if($area_escolhida == 'contacts'){
                 include('./pages/contacts.php');
+            } else if($area_escolhida == 'login'){
+                include('./pages/login.php');
             } else{
                 include('./pages/erro.php');
             }

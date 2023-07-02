@@ -58,15 +58,11 @@ body{
     align-items: center;
     padding: 20px 0;
 }
-.menu__item-dot{
-    width: 30px;
-    height: 30px;
-    background-color: var(--clr-text);
-    border-radius: 50%;
+.fa-regular{
     cursor: pointer;
 }
-.menu__item-dot:hover{
-    background-color: var(--clr-accent);
+.fa-regular:hover{
+    color: var(--clr-titles)!important;
 }
 
 
@@ -206,9 +202,21 @@ body{
     color: #000;
     padding: 8px;
 }
+
 /* CONTACTS CONTENT */
-
-
+/* LOGIN / REGISTER CONTENT */
+.login__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--ff-text);
+    gap: 16px;
+}
+.login__form .login__input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+}
 
 
 /* FOR DESKTOP */
@@ -230,5 +238,8 @@ body{
         display: grid;
         grid-template: 1fr 1fr 1fr 1fr;
         margin-inline: auto;
+    }
+    .fa-xl{
+        font-size: 2em;
     }
 }
