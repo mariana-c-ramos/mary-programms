@@ -2,12 +2,18 @@ DONE
 -> prepare homepage content
 -> prepare about me content
 -> build admin folder
+-> make icons for nav
+-> build database for the future CMS
+-> create login page
+-> make admin area, the base of it
 
 ON IT
--> prepare project content
+-> connect login to admin page
 
 NEXT
--> build database for the future CMS
+-> connect login to admin page
+-> prepare project content
 -> prepare career content
 -> prepare blog
 -> prepare contact
+-> mantain different icon color while on the page

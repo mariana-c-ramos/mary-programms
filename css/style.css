@@ -9,9 +9,9 @@
     --ff-title: 'Bungee', cursive;
     --ff-text: 'Oxanium', cursive;
 
-    --fs-headline: 2em;
-    --fs-title: 1.5em;
-    --fs-subtitle: 1.25em;
+    --fs-headline: 1.5em;
+    --fs-title: 1.25em;
+    --fs-subtitle: 1.125em;
     --fs-text: 1em;
 
     --fw-bold: bold;
@@ -24,7 +24,7 @@ body{
     scroll-behavior: smooth;
     position: relative;
     overflow: hidden;
-    font-size: 14px;
+    font-size: 18px;
     background-color: var(--clr-bg);
     color: var(--clr-text);
 }
@@ -69,8 +69,7 @@ body{
 /* GENERAL CONTENT */
 .wrapper{
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 15%;
     width: 100%;
     text-align: center;
 }
@@ -85,8 +84,10 @@ body{
     color: var(--clr-titles);
     font-family: var(--ff-title);
     font-size: var(--fs-title);
-    margin-top: 24px;
+    letter-spacing: 1px;
+    margin-top: 16px;
     margin-bottom: 16px;
+    margin-inline: 2px;
 }
 .section__p{
     color: var(--clr-text);
@@ -122,7 +123,7 @@ body{
     background-color: var(--clr-text);
     color: var(--clr-accent);
 }
-.blog__btn{
+.btn{
     background-color: var(--clr-accent);
     color: var(--clr-bg);
     font-family: var(--ff-text);
@@ -130,7 +131,7 @@ body{
     padding: 8px 16px;
     border-radius: 16px;
 }
-.blog__btn:hover{
+.btn:hover{
     background-color: var(--clr-bg);
     color: var(--clr-text);
 }
@@ -208,14 +209,35 @@ body{
 .login__form{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    text-align: center;
     font-family: var(--ff-text);
     gap: 16px;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 .login__form .login__input{
     display: flex;
     flex-direction: column;
-    align-items: flex-start
+    align-items: flex-start;
+}
+.login__input-pass{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.login__nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+}
+.login__nav a{
+    color: var(--clr-text);
+    font-family: var(--ff-text);
+    font-size: var(--fs-text);
+    text-decoration: underline;
+    margin-top: 8px;
 }
 
 

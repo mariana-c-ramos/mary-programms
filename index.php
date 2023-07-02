@@ -38,7 +38,11 @@
                 include('./pages/contacts.php');
             } else if($area_escolhida == 'login'){
                 include('./pages/login.php');
-            } else{
+            } else if($area_escolhida == 'register'){
+                include('./pages/register.php');
+            } else if($area_escolhida == 'admin-area'){
+                include('./admin/adminArea.php');
+            }else{
                 include('./pages/erro.php');
             }
         } else {
@@ -56,6 +60,20 @@
             slidesPerView: 1.5,
             centeredSlides: true
         });
+
+        function myFunction() {
+            var pass = document.getElementById("showPass");
+            var icon = document.getElementById("iconPass");
+            if (pass.type === "password") {
+                pass.type = "text";
+                icon.classList.remove("fa-eye");
+                icon.classList.add("fa-eye-slash");
+            } else {
+                pass.type = "password";
+                icon.classList.remove("fa-eye-slash");
+                icon.classList.add("fa-eye");
+            }
+        }
     </script>
 </body>
 </html>

@@ -1,1 +1,3 @@
-<h1>welcome to the admin area!</h1>
+<div class="wrapper">
+    <h2 class="section__title">WELCOME TO THE ADMIN AREA </h2>
+</div>
