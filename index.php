@@ -14,14 +14,15 @@
     <link rel="stylesheet" href="assets/icons/css/fontawesome.css">
     <link rel="stylesheet" href="assets/icons/css/brands.css">
     <link rel="stylesheet" href="assets/icons/css/solid.css">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
 </head>
 <body>
+    <?php include('./config.php') ?>
     <?php include('./pages/mainLayout.php') ?>
     <?php
         if(isset($_GET['area'])){
@@ -50,30 +51,9 @@
         }
     ?>
 
-    <script src="./js/jquery.js"></script>
+    <script src="js/jquery.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="./js/app.js"></script>
-    <script>
-        const swiper = new Swiper('.swiper', {
-            direction: 'horizontal',
-            slidesPerView: 1.5,
-            centeredSlides: true
-        });
-
-        function myFunction() {
-            var pass = document.getElementById("showPass");
-            var icon = document.getElementById("iconPass");
-            if (pass.type === "password") {
-                pass.type = "text";
-                icon.classList.remove("fa-eye");
-                icon.classList.add("fa-eye-slash");
-            } else {
-                pass.type = "password";
-                icon.classList.remove("fa-eye-slash");
-                icon.classList.add("fa-eye");
-            }
-        }
-    </script>
+    <script src="js/app.js"></script>
 </body>
 </html>
