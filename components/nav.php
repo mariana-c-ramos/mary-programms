@@ -36,7 +36,7 @@
         </li>
         <li class="menu__item">
             <a href="index.php?area=login">
-                <i class="fa-regular fa-right-to-bracket fa-xl" style="color: #ffcc17;"></i>
+                <i class="fa-regular fa-circle-user fa-xl" style="color: #ffcc17;"></i>
             </a>
         </li>
     </ul>

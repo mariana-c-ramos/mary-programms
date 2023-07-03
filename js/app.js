@@ -1,4 +1,23 @@
-const swiper = new Swiper('.swiper', {
+const swiperAbout = new Swiper('.swiper-about', {
+    direction: 'horizontal',
+    slidesPerView: 1,
+    centeredSlides: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        renderBullet: function (index, className) {
+            for(i=0; i<5; i++){
+                return '<img src="assets/icons/hobby-' + (index + 1) + '.png" class="' + className + '">';
+            }
+        },
+      },
+    autoplay: {
+        delay: 6000,
+        disableOnInteraction: false,
+    },
+});
+
+const swiperBlog = new Swiper('.swiper-blog', {
     direction: 'horizontal',
     slidesPerView: 1.5,
     centeredSlides: true
@@ -31,3 +50,7 @@ function verificaEmail(){
 function limpaMensagem(){
     $('.mensagem-email').text('');
 };
+
+$('#aboutIconPlants').on('click', function(){
+
+})

@@ -6,14 +6,13 @@ DONE
 -> build database for the future CMS
 -> create login page
 -> make admin area, the base of it
+-> connect login to admin page
 
 ON IT
--> connect login to admin page
+-> make sure sessions are well saved
+-> prepare career content
+-> prepare contact
 
 NEXT
--> connect login to admin page
 -> prepare project content
--> prepare career content
 -> prepare blog
--> prepare contact
--> mantain different icon color while on the page
