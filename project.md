@@ -7,9 +7,9 @@ DONE
 -> create login page
 -> make admin area, the base of it
 -> connect login to admin page
+-> make sure sessions are well saved
 
 ON IT
--> make sure sessions are well saved
 -> prepare career content
 -> prepare contact
 

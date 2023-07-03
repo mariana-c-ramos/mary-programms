@@ -1,7 +1,3 @@
-<?php
-    $activePage = basename($_SERVER['PHP_SELF'], ".php");
-?>
-
 <nav class="menu" style="z-index: 9;">
     <ul class="menu__list">
     <li class="menu__item">
@@ -34,10 +30,26 @@
                 <i class="fa-regular fa-walkie-talkie fa-xl" style="color: #ffcc17;"></i>
             </a>
         </li>
+        <?php
+          if(isset($_SESSION['id_users'])){
+        ?>
+        <li class="menu__item">
+            <a href="pages/logout.php">
+                <i class="fa-regular fa-right-to-bracket fa-xl" style="color: #ffcc17;"></i>
+            </a>
+        </li>
+
+        <?php
+          } else {
+        ?>
         <li class="menu__item">
             <a href="index.php?area=login">
                 <i class="fa-regular fa-circle-user fa-xl" style="color: #ffcc17;"></i>
             </a>
         </li>
+
+        <?php
+          }
+        ?>
     </ul>
 </nav>

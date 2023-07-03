@@ -111,17 +111,17 @@ body{
     font-size: var(--fs-text);
     margin-bottom: 16px;
 }
-.erro__btn{
+.main__btn{
     background-color: var(--clr-accent);
-    color: var(--clr-text);
+    color: var(--clr-bg);
     font-family: var(--ff-text);
     font-size: var(--fs-subtitle);
     padding: 12px 24px;
     border-radius: 16px;
 }
-.erro__btn:hover{
+.main__btn:hover{
     background-color: var(--clr-text);
-    color: var(--clr-accent);
+    color: var(--clr-bg);
 }
 .btn{
     background-color: var(--clr-accent);
@@ -265,6 +265,14 @@ body{
     font-size: var(--fs-text);
     text-decoration: underline;
     margin-top: 8px;
+}
+
+/* ADMIN CONTENT */
+.areas{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0 16px;
 }
 
 

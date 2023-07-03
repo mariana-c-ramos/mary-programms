@@ -1,3 +1,7 @@
+<?php
+  include('config.php');
+  session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,6 +47,12 @@
                 include('./pages/register.php');
             } else if($area_escolhida == 'admin-area'){
                 include('./admin/adminArea.php');
+            } else if($area_escolhida == 'admin-pages'){
+                include('./admin/pages/adminPages.php');
+            }else if($area_escolhida == 'admin-projects'){
+                include('./admin/pages/adminProjects.php');
+            }else if($area_escolhida == 'admin-blog'){
+                include('./admin/pages/adminBlog.php');
             }else{
                 include('./pages/erro.php');
             }
