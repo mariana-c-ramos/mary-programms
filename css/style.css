@@ -183,8 +183,7 @@ body{
     text-align: center;
     opacity: 1;
     background: rgba(0, 0, 0, 0.2);
-  }
-
+}
 
 
 /* PROJECTS CONTENT */
@@ -210,6 +209,8 @@ body{
     font-weight: var(--fw-bold);
     text-decoration: underline;
 }
+
+
 /* CAREER CONTENT */
 
 
@@ -221,10 +222,25 @@ body{
     gap: 16px;
 }
 .swiper-blog-slide{
+    position: relative;
     background-color: var(--clr-text);
     color: #000;
     padding: 8px;
+    height: 250px!important;
 }
+.section__p-blog-text{
+    display: none;
+}
+.swiper-blog-slide .btn{
+    position: absolute;
+    bottom: 2px;
+    right: 0;
+    left: 0;
+    margin-inline: auto;
+    width: 150px;
+}
+
+
 
 /* CONTACTS CONTENT */
 /* LOGIN / REGISTER CONTENT */
@@ -272,6 +288,7 @@ body{
     text-decoration: underline;
     margin-top: 8px;
 }
+
 
 /* ADMIN CONTENT */
 .areas{

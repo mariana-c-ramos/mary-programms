@@ -10,9 +10,10 @@ DONE
 -> make sure sessions are well saved
 
 ON IT
--> prepare career content
--> prepare contact
+
 
 NEXT
+-> prepare career content
+-> prepare contact
 -> prepare project content
 -> prepare blog

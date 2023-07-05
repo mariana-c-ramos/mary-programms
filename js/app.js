@@ -1,4 +1,4 @@
-const swiperAbout = new Swiper('.swiper-about', {
+var swiperAbout = new Swiper('.swiper-about', {
     direction: 'horizontal',
     slidesPerView: 1,
     centeredSlides: true,
@@ -6,22 +6,28 @@ const swiperAbout = new Swiper('.swiper-about', {
         el: ".swiper-pagination",
         clickable: true,
         renderBullet: function (index, className) {
-            for(i=0; i<5; i++){
+             for(i=0; i<5; i++){
                 return '<img src="assets/icons/hobby-' + (index + 1) + '.png" class="' + className + '">';
             }
         },
       },
     autoplay: {
-        delay: 6000,
+        delay: 3000,
         disableOnInteraction: false,
     },
 });
 
-const swiperBlog = new Swiper('.swiper-blog', {
+var swiperBlog = new Swiper('.swiper-blog', {
     direction: 'horizontal',
     slidesPerView: 1.5,
     centeredSlides: true
 });
+
+
+function showText2(id_article){
+    $('.section__p-blog-text').css('display', 'none');
+    $('.article-'+id_article).css('display','block');
+}
 
 function showPassContent() {
     var pass = document.getElementById("showPass");
