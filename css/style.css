@@ -210,7 +210,6 @@ body{
     text-decoration: underline;
 }
 
-
 /* CAREER CONTENT */
 
 
@@ -264,6 +263,9 @@ body{
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
+}
+.blog__form .project__input{
+    text-align: start;
 }
 .login__form .login__input input,
 .login__form .login__input-pass,
