@@ -437,6 +437,12 @@ body{
         display: grid;
         grid-template: 1fr 1fr 1fr 1fr;
         margin-inline: auto;
+        padding: 0 500px;
+    }
+    .swiper-blog{
+        width: 1000px;
+        margin-inline: auto;
+        overflow-x: hidden;
     }
     .swiper-blog-wrapper{
         gap: 16px;
