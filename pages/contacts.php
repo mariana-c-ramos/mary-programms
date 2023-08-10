@@ -3,6 +3,10 @@
     <h2 class="section__title">"LOOKS LEGIT -<br>I'LL WORK WITH HER"</h2>
     <form method="post" action="components/submitForm.php" class="login__form">    
         <div class="center">
+        <div class="login__input">
+                <label for="name">NAME</label>
+                <input type="text" name="name" required>
+            </div>
             <div class="login__input">
                 <label for="email">EMAIL</label>
                 <input type="email" name="email" required>
@@ -15,7 +19,7 @@
                 <label for="message">MESSAGE</label>
                 <textarea name="message" id="" cols="30" rows="2"></textarea>
             </div>
-            <button class="btn">SUBMIT</button>
+            <button type="submit" name="send" class="btn">SUBMIT</button>
         </div>
     </form>
     <div class="socials">

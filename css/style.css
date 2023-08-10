@@ -324,9 +324,6 @@ body{
 }
 
 
-
-
-
 /* LOGIN / REGISTER CONTENT */
 .login__form,
 .blog__form{
@@ -416,7 +413,7 @@ body{
     .menu{
         position: absolute;
         top: 0;
-        left: 90%;
+        right: 90%;
     }
     .menu__list{
         display: flex;
@@ -441,6 +438,29 @@ body{
         grid-template: 1fr 1fr 1fr 1fr;
         margin-inline: auto;
     }
+    .swiper-blog-wrapper{
+        gap: 16px;
+    }
+    .swiper-blog-slide{
+        position: relative;
+        background-color: var(--clr-text);
+        color: #000;
+        padding: 8px;
+        height: 320px!important;
+    }
+    .section__p-blog-text{
+        display: none;
+    }
+    .swiper-blog-slide .btn{
+        position: absolute;
+        bottom: 2px;
+        right: 0;
+        left: 0;
+        margin-inline: auto;
+        width: 150px;
+    }
+
+
     .fa-xl{
         font-size: 2em;
     }
