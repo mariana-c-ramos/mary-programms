@@ -213,6 +213,11 @@ body{
     font-size: var(--fs-subtitle);
     font-weight: var(--fw-bold);
 }
+.project__text{
+    color: var(--clr-text);
+    font-family: var(--ff-text);
+    font-size: var(--fs-text);
+}
 
 .projects__covers .row__projects-specific-text{
     display: flex;

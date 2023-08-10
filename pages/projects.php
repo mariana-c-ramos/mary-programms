@@ -53,12 +53,12 @@
         </div>
         <div class="row row__projects-specific-text">
             <h2 class="project__title">PROJECT GOAL</h2>
-            <p class="project__text">Lorem ipsum</p>
-            <p class="project__text">Lorem ipsum</p>
+            <p class="project__text">Rootsie is an online store for a client that sells plants and seeds.</p>
+            <p class="project__text">The main goal was to showcase beautiful pictures of the plants and build an online store for this business.</p>
         </div>
     </div>
     <div class="breadcrumbs">
-        <p class="breadcrumbs__trail-first">the lab ></p>
+        <p class="breadcrumbs__trail-first">the lab >&nbsp;</p>
         <p class="breadcrumbs__trail-second"></p>
         <p class="breadcrumbs__trail-third"></p>
     </div>

@@ -73,7 +73,7 @@ function mudaProjecto(){
     $('#rowProjects').css({
         "display":"flex"
     })
-    $('.breadcrumbs__trail-second').html('ux >')
+    $('.breadcrumbs__trail-second').html('ux >&nbsp;')
 };
 
 function mudaProjectoEspecifico(){

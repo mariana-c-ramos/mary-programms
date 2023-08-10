@@ -6,7 +6,7 @@
             <img src="assets\icons\logo.png" alt="" class="job-logo">
             <div class="job-info">
                 <h2 class="job-title">YDigital Media</h2>
-                <p class="job-timming">06/2019 ~ 05/2023</p>
+                <p class="job-timming">06/2019 ~ Current</p>
             </div>
         </div>
         <div class="job-description">
