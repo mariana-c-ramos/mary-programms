@@ -1,3 +1,4 @@
+<!-- Validates if there was a sucessful login -->
 <?php include('../config.php'); ?>
 <?php
   $user = $_POST['email'];

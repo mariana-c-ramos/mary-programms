@@ -1,3 +1,4 @@
+<!-- Area to create new posts and updates already created ones -->
 <div class="wrapper">
     <?php 
         if(isset($_GET['id_post'])){
@@ -53,5 +54,5 @@
         ?>
     </div>
 
-    <a href="index.php?area=admin-area" class="main__btn">GO BACK</a>
+    <a href="index.php?area=admin-area" class="main__btn admin__main-btn">GO BACK</a>
 </div>

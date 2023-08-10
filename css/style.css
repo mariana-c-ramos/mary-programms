@@ -1,3 +1,4 @@
+/* Played around a bit with variables and see if they could help manage future theme changes */
 :root{
     /* COLORS */
     --clr-bg: #2C3F49;
@@ -202,16 +203,88 @@ body{
 .projects__covers-img{
     cursor: pointer;
 }
-.breadcrumbs__trail-first{
+#rowProjects,
+#rowProjectsSpecific{
+    display: none;
+}
+.project__title{
+    color: var(--clr-titles);
+    font-family: var(--ff-title);
+    font-size: var(--fs-subtitle);
+    font-weight: var(--fw-bold);
+}
+
+.projects__covers .row__projects-specific-text{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 16px;
+}
+.breadcrumbs{
+    display: flex;
+    justify-content: center
+}
+.breadcrumbs__trail-first,
+.breadcrumbs__trail-second,
+.breadcrumbs__trail-third{
     color: var(--clr-titles);
     font-family: var(--ff-text);
     font-size: var(--fs-text);
     font-weight: var(--fw-bold);
-    text-decoration: underline;
 }
 
 /* CAREER CONTENT */
-
+.wrapper-job{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.job{
+    margin-bottom: 16px;
+}
+.job-details{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+.job-logo{
+    width: 20%;
+    max-width: 100px;
+}
+.job-info{
+    text-align: left;
+}
+.job-title{
+    color: var(--clr-text);
+    font-family: var(--ff-title);
+    font-size: var(--fs-subtitle);
+    font-weight: var(--fw-bold);
+}
+.job-timming{
+    color: var(--clr-text);
+    font-family: var(--ff-text);
+    font-size: var(--fs-text);
+    font-weight: var(--fw-bold);
+    line-height: 1;
+}
+.job-description{
+    text-align: left;
+}
+.job-description h3{
+    color: var(--clr-accent);
+    font-family: var(--ff-title);
+    font-size: var(--fs-subtitle);
+    font-weight: var(--fw-bold);
+}
+.job-description p{
+    color: var(--clr-text);
+    font-family: var(--ff-text);
+    font-size: var(--fs-text);
+    line-height: 1;
+    margin-bottom: 8px;
+}
 
 /* BLOG CONTENT */
 .blog__grid{
@@ -225,7 +298,7 @@ body{
     background-color: var(--clr-text);
     color: #000;
     padding: 8px;
-    height: 250px!important;
+    height: 320px!important;
 }
 .section__p-blog-text{
     display: none;
@@ -240,8 +313,20 @@ body{
 }
 
 
-
 /* CONTACTS CONTENT */
+.socials{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.social{
+    width: 15%;
+}
+
+
+
+
+
 /* LOGIN / REGISTER CONTENT */
 .login__form,
 .blog__form{
@@ -304,9 +389,25 @@ body{
     width: 200px;
     margin-inline: auto;
 }
+.post__list{
+    margin-inline: auto;
+    max-width: 300px;
+}
 .post__info{
     display: flex;
     border: 1px solid var(--clr-accent);
+    padding: 8px 8px;
+}
+.post__info p a{
+    color: var(--clr-text);
+    text-decoration: none;
+}
+.post__info p a:hover{
+    color: var(--clr-accent);
+}
+.admin__main-btn{
+    display: inline-block;
+    margin-top: 20px;
 }
 
 
@@ -324,6 +425,16 @@ body{
         height: 100vh;
         padding-top: 80px;
         padding-bottom: 60px;
+    }
+    .about__banner{
+        width:20%;
+        max-width: 500px;
+        margin: 24px auto 40px auto;
+    }
+    .projects__covers .row{
+        display: flex;
+        gap: 16px;
+        margin-bottom: 24px;
     }
     .blog__grid{
         display: grid;

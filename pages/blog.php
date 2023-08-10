@@ -1,3 +1,4 @@
+<!-- Structure for my blog section -->
 <div class="wrapper">
     <h2 class="section__title">"A BLOG... THAT'S A BIT <br>2008 BUT LET'S SEE!"</h2>
     <div class="swiper-blog">

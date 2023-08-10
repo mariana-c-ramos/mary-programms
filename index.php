@@ -1,3 +1,6 @@
+<!-- This page is used to insert all the content. It has an if statement that, depending on the button clicked, it changes the page content -->
+<!-- On the head tag I added a couple of meta tags used to increase the SEO optimization -->
+
 <?php
   include('config.php');
   session_start();
@@ -29,7 +32,7 @@
     <?php include('./config.php') ?>
     <?php include('./pages/mainLayout.php') ?>
     <?php
-        if(isset($_GET['area'])){
+        if(isset($_GET['area'])){ //This will get the URL part corresponding to the current page
             $area_escolhida = $_GET['area'];
             if($area_escolhida == 'about-miana'){
                 include('./pages/about.php');

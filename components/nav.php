@@ -1,6 +1,9 @@
+<!-- Simple nav component used in the Main Layout file -->
+<!-- With CSS I adapted the menu to mobile and desktop, in order to use the same code -->
+
 <nav class="menu" style="z-index: 9;">
     <ul class="menu__list">
-    <li class="menu__item">
+        <li class="menu__item">
             <a href="index.php">
                 <i class="fa-regular fa-house fa-xl" style="color: #ffcc17;"></i>
             </a>
@@ -31,25 +34,23 @@
             </a>
         </li>
         <?php
-          if(isset($_SESSION['id_users'])){
+            if(isset($_SESSION['id_users'])){
         ?>
         <li class="menu__item">
             <a href="pages/logout.php">
                 <i class="fa-regular fa-right-to-bracket fa-xl" style="color: #ffcc17;"></i>
             </a>
         </li>
-
         <?php
-          } else {
+            } else {
         ?>
         <li class="menu__item">
             <a href="index.php?area=login">
                 <i class="fa-regular fa-circle-user fa-xl" style="color: #ffcc17;"></i>
             </a>
         </li>
-
         <?php
-          }
+            }
         ?>
     </ul>
 </nav>

@@ -1,3 +1,4 @@
+<!-- Structure for my login area -->
 <?php
   if(isset($_SESSION['id_users'])){
     echo 'Olá '.$_SESSION['user_name'].'!';

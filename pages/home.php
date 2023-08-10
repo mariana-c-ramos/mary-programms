@@ -1,3 +1,4 @@
+<!-- Content for my homepage -->
 <div class="wrapper">
     <img src="assets/imgs/home-banner.png" alt="" class="home__banner">
     <h1 class="headline">HEY, WELCOME TO <br>MIANA PROGRAMMS</h1>

@@ -1,3 +1,4 @@
+<!-- Allows to create a new blog post -->
 <?php include('../config.php') ?>
 <?php
   session_start();
@@ -31,6 +32,5 @@
 
   echo  $ligacao->insert_id;
 
-die();
   header('location:../index.php?area=admin-blog');
 ?>

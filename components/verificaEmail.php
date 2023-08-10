@@ -1,3 +1,4 @@
+<!-- Validates if an email is already been used -->
 <?php include('../config.php'); ?>
 <?php
   $email = $_POST['email'];

@@ -1,3 +1,4 @@
+<!-- Allows to create a new account -->
 <?php include('../config.php'); ?>
 <?php
 

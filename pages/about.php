@@ -1,3 +1,6 @@
+<!-- Structure for my About Me section -->
+<!-- In this page I used a jQuery lib to create a carrossel for my text -->
+
 <div class="wrapper">
     <h2 class="section__title">"HM... WHO'S <br>MIANA PROGRAMMS?"</h2>
     <img src="assets/imgs/selfie.jpg" alt="A selfie of me" class="about__banner">
