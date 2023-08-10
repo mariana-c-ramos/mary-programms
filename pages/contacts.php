@@ -2,7 +2,7 @@
 <div class="wrapper">
     <h2 class="section__title">"LOOKS LEGIT -<br>I'LL WORK WITH HER"</h2>
     <form method="post" action="components/submitForm.php" class="login__form">    
-        <div class="center">
+        <div class="centered">
         <div class="login__input">
                 <label for="name">NAME</label>
                 <input type="text" name="name" required>
@@ -23,9 +23,17 @@
         </div>
     </form>
     <div class="socials">
-        <img src="assets\icons\social-icon.png" alt="" class="social">
-        <img src="assets\icons\social-icon-1.png" alt="" class="social">
-        <img src="assets\icons\social-icon-2.png" alt="" class="social">
-        <img src="assets\icons\social-icon-3.png" alt="" class="social">
+        <a href="https://github.com/mariana-c-ramos" target="_blank" class="social">
+            <picture>
+                <source media="(min-width: 960px)" srcset="assets\icons\social-icon-gt-desk.png" />
+                <img src="assets\icons\social-icon-gt.png">
+            </picture>
+        </a>
+        <a href="https://www.linkedin.com/in/mariana-c-ramos/" target="_blank" class="social">
+            <picture>
+                <source media="(min-width: 960px)" srcset="assets\icons\social-icon-lk-desk.png" />
+                <img src="assets\icons\social-icon-lk.png">
+            </picture>
+        </a>
     </div>
 </div>
